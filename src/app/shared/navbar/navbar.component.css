@@ -5,3 +5,26 @@ nav {
   background-color: rgba(0, 0, 0, 0.5);
   width: 100%;
 }
+
+nav .wrapper {
+  display: flex;
+  align-items: center;
+}
+
+#logo > * {
+  display: inline-block;
+  vertical-align: middle;
+}
+#logo img {
+  height: 100px;
+}
+
+.navigation {
+  list-style: none;
+  flex-grow: 1;
+  text-align: right;
+}
+.navigation li {
+  display: inline-block;
+  margin-left: 20px;
+}
